@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 80%;
+    height: 60px;
+    left: 0;
+    right: 0;
+    top: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    /* Cosmetics */
+    background-color: transparent;
+  }
+
+  .Logo {
+    height: 30px;
+    padding: 15px 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 30px;
+    background: rgba(155, 155, 155, 0.95);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  nav a {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 5px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  nav a:hover {
+    transform: scale(1.1);
+  }
+
+  .Burger {
+    margin: 0 0.1% 0 0;
+    padding: 0;
+    justify-self: end;
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.1s;
+  }
+  .Burger:active {
+    transform: scale(1.2);
+  }
+
+  .NavAnimation-enter {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  .NavAnimation-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 350ms, transform 350ms;
+  }
+  .NavAnimation-exit {
+    opacity: 1;
+  }
+  .NavAnimation-exit-active {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 350ms, transform 350ms;
+  }
+
+  @media (max-width: 700px) {
+    .Logo {
+        height: 20px;
+      }
+  }

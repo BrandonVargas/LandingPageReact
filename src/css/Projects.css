@@ -1,0 +1,47 @@
+.separator {
+    position: relative;
+    margin: 4% 10%;
+    height: 1px;
+    background-color: #2138422c;
+}
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 10% 5% 10%;
+}
+
+.header .title {
+    font-family: 'Open Sans';
+    font-size: 36px;
+    color: #4D533C;
+    letter-spacing: 0;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.header .disclaimer {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: rgba(33,56,66,0.60);
+    letter-spacing: 0;
+    line-height: 26px;
+    width: 30%;
+}
+
+@media (max-width: 700px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header .title {
+        width: 80%;
+    }
+
+    .header .disclaimer {
+        width: 80%;
+    }
+}

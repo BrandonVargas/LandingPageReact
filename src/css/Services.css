@@ -1,0 +1,111 @@
+.services {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 10%;
+    padding: 0 5% 0 0;
+}
+
+.services .explanation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 12%;
+    align-self: flex-start;
+}
+
+.explanation .title {
+    font-family: Helvetica;
+    font-size: 14px;
+    color: rgba(77,83,60,0.90);
+}
+
+.explanation .highlight {
+    font-family: 'Open Sans';
+    font-size: 36px;
+    color: #4D533C;
+    letter-spacing: 0;
+    line-height: 46px;
+}
+
+.explanation .description {
+    font-family: Helvetica;
+    font-size: 16px;
+    color: rgba(33,56,66,0.60);
+    line-height: 26px;
+}
+
+.services .message {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    align-self: flex-end;
+    margin: 0 5% 1% 50%;
+    padding: 15% 0 3% 0;
+    box-shadow: 0 8px 24px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services .message-text {
+    font-family: Monaco;
+    font-size: 24px;
+    color: #4D533C;
+    line-height: 40px;
+    padding: 0 5% 0 5%;
+}
+
+.services .author {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+}
+
+.services .info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+.services .name {
+    font-family: Monaco;
+    font-size: 22px;
+    color: #4D533C;
+    letter-spacing: 0;
+    position: relative;
+}
+
+.services .about {
+    font-family: Monaco;
+    font-size: 16px;
+    color: #152934;
+    letter-spacing: 0;
+    position: relative;
+}
+
+@media (max-width: 700px) {
+    .services {
+        flex-direction: column;
+    }
+
+    .services .explanation {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 90%;
+        margin: 0;
+    }
+
+    .services .message {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-self: center;
+        width: 90%;
+        margin: 0;
+    }
+  }

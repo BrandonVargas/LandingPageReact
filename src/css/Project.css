@@ -1,0 +1,181 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-note {
+    position: relative;
+    justify-self: left;
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+
+.description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description .title {
+    max-width:55%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #4D533C;
+    letter-spacing: 0;
+    line-height: 48px;
+}
+
+.description .text {
+    max-width:55%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: rgba(33,56,66,0.60);
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.image-note .project-image {
+    max-width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.image-note .sidenote {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 15%;
+    left: 35%;
+    width: 50%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px 20px;
+    box-shadow: 0 8px 24px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-note .sidenote .note {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #4D533C;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin: 0 0 10px 0;
+}
+
+.image-note .sidenote .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 3;
+}
+
+.info .author{
+    width: 46px;
+    height: 46px;
+    margin: auto 5px auto 0;
+}
+
+.info .author-container {
+    margin: auto 0;
+}
+
+.info .name {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4D533C;
+    letter-spacing: 0;
+}
+
+.info .about {
+    margin:  0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #152934;
+    letter-spacing: 0;
+}
+
+.image-note-right {
+    position: relative;
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+
+.image-note-right .sidenote-left {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 15%;
+    right: 35%;
+    width: 50%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px 20px;
+    box-shadow: 0 8px 24px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-note-right .project-image {
+    max-width: 80%;
+    height: 80%;
+    align-self: right;
+    object-fit: contain;
+}
+
+.image-note-right .sidenote-left .note {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #4D533C;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin: 0 0 10px 0;
+}
+
+.image-note-right .sidenote-left .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 3;
+}
+
+.description-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.description-left .title {
+    max-width:55%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #4D533C;
+    letter-spacing: 0;
+    line-height: 48px;
+}
+
+.description-left .text {
+    max-width:50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: rgba(33,56,66,0.60);
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+@media (max-width: 700px) {
+    .container, .description, .description-left, .image-note, .image-note-right, .sidenote,.sidenote-left {
+        flex-direction: column;
+        position: relative;
+        margin: 5px;
+        width: 100%;
+        padding: 5px;
+        justify-content: center;
+    }
+}
+
