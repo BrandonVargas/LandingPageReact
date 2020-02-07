@@ -1,0 +1,120 @@
+.contact {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .header {
+    top: 0;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: flex-start;
+    background-color: white;
+    padding: 3% 0 3% 10%;
+    box-shadow: 0 8px 24px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact .header .title {
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #4D533C;
+    letter-spacing: 0;
+    line-height: 74px;
+    margin: 0 0 5% 0;
+}
+
+.contact .contact-info {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 150px;
+    padding: 200px 10% 1% 10%;
+    background-color: #4F553D;
+    background-image: url("../assets/contact_bg.png");
+    background-size: cover;
+}
+
+.contact .contact-info .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 4% 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.info-section {
+    position: relative;
+    min-width: 25%;
+}
+
+.info-section .info-label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #B6C197;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.info-section .list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-section .info{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.info-section .email {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 38px;
+}
+
+.info-section .social {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-section .social .list-icon{
+    float: left;
+    margin-right: 1em;
+}
+
+.icon:hover {
+    color: #FFD723;
+}
+
+.separator {
+    position: relative;
+    margin: 0;
+    height: 1px;
+    background-color: #5D6544;
+    clear: both;
+}
+
+.copyright {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #B5C096;
+    letter-spacing: 0;
+}

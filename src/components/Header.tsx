@@ -31,6 +31,9 @@ const Header: React.FC<HeaderProps> = () => {
                 <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500} onClick={toggleNav}>
                   Projects
                 </Link>
+                <Link activeClass="active" to="process" spy={true} smooth={true} offset={50} duration={500} onClick={toggleNav}>
+                  Services
+                </Link>
                 <Link activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={toggleNav}>
                   Contact
                 </Link>

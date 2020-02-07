@@ -10,7 +10,7 @@ const Services: React.FC = () => {
                     <p className="title">What we do for you</p>
                     <p className="highlight">Strategy. Design Content. Technology Development</p>
                     <p className="description">There’s no secret sauce, no wizard behind the curtain. What makes Aerolab tick is an interdisciplinary team with a framework that fosters candid collaboration.</p>
-                    <p><a href="/">>More know About us</a></p>
+                    <p><a className="url" href="/">>More know About us</a></p>
                 </div>
                 <div className="message">
                     <p className="message-text">With More than 10 Years of <br/>

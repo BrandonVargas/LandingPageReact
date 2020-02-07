@@ -1,0 +1,49 @@
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    padding: 2% 2%;
+}
+
+.box:hover {
+    box-shadow: 0 8px 24px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box .title {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4D533C;
+    letter-spacing: 0;
+    line-height: 34px;
+    margin: 0;
+}
+
+.box .description {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: rgba(33,56,66,0.60);
+    letter-spacing: 0;
+    line-height: 26px;
+    margin: 10% 0 25% 0;
+}
+
+.box .more {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #D4D6D4;
+    align-self: flex-start;
+}
+
+.box:hover .more {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFD723;
+    align-self: flex-start;
+}

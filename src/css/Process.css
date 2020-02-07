@@ -1,0 +1,24 @@
+.process {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 10% 10%;
+}
+
+.process-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #4D533C;
+    letter-spacing: 0;
+    line-height: 46px;
+    max-width: 55%;
+}
+
+.process-boxes {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}

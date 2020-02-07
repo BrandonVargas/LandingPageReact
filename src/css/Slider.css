@@ -45,7 +45,8 @@
 }
 
 .content .highlight {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     font-size: 60px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -86,7 +87,7 @@
         padding: 0 10% 0 5%;
     }
 
-    .content .url {
+    .url {
         padding: 0 10% 0 5%;
     }
 }

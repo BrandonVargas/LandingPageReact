@@ -5,7 +5,7 @@ export default [
         highlight: "A creative agency for redemptive brands",
         description: "Anteelo is a leading strategic design firm that builds powerful digital solutions for startups and enterprises.",
         urlText: "Get in touch",
-        url: "#"
+        url: "/"
     },
     {
         image: "slider2.png",
@@ -13,6 +13,6 @@ export default [
         highlight: "Some Highlights Words",
         description: "A not very long description",
         urlText: "Some URL",
-        url: "#"
-    },
+        url: "/"
+    }
 ]

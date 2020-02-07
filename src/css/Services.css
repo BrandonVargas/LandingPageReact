@@ -16,13 +16,14 @@
 }
 
 .explanation .title {
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: rgba(77,83,60,0.90);
 }
 
 .explanation .highlight {
-    font-family: 'Open Sans';
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     font-size: 36px;
     color: #4D533C;
     letter-spacing: 0;
@@ -30,7 +31,7 @@
 }
 
 .explanation .description {
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: rgba(33,56,66,0.60);
     line-height: 26px;
@@ -49,7 +50,8 @@
 }
 
 .services .message-text {
-    font-family: Monaco;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
     font-size: 24px;
     color: #4D533C;
     line-height: 40px;
@@ -72,7 +74,7 @@
 }
 
 .services .name {
-    font-family: Monaco;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     color: #4D533C;
     letter-spacing: 0;
@@ -80,7 +82,7 @@
 }
 
 .services .about {
-    font-family: Monaco;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #152934;
     letter-spacing: 0;

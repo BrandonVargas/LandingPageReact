@@ -42,7 +42,7 @@ const Project: React.FC<ProjectProps> = ( {project, isLeftOriented} ) => {
                     <p className="text">
                         {project.content}
                     </p>
-                    <a href="/">See case study</a>
+                    <a className="url" href="/">See case study</a>
                 </div>
             </div>
         )
@@ -56,7 +56,7 @@ const Project: React.FC<ProjectProps> = ( {project, isLeftOriented} ) => {
                     <p className="text">
                         {project.content}
                     </p>
-                    <a href="/">See case study</a>
+                    <a className="url" href="/">See case study</a>
                 </div>
                 <div className="image-note-right">
                     <img className="project-image" src={require(`../assets/${project.image ? project.image : 'hero.png'}`)} alt="project"/>

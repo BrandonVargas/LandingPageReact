@@ -35,7 +35,7 @@ const Slider: React.FC<SliderProps> = ( {slides} ) => {
                     <p className="title">{s.title}</p>
                     <p className="highlight">{s.highlight}</p>
                     <p className="description">{s.description}</p>
-                    <p><a className="url" href="/">{s.urlText}</a></p>
+                    <a className="url" href={s.url}>{s.urlText}</a>
                 </div>
                 {i === curr && (
                     <img className="image" src={require(`../assets/${s.image}`)} alt="Hero" />
