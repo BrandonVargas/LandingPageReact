@@ -14,10 +14,12 @@
     align-items: center;
     opacity: 0;
     transition: .3s ease;
+    z-index: 0;
 }
 
 .slide.active {
     opacity: 1;
+    z-index: 1;
     transition-duration: .2s;
 }
 

@@ -16,11 +16,11 @@ const Slider: React.FC<SliderProps> = ( {slides} ) => {
     const { length } = slides;
 
     const goToNext = () => {
-    setCurr(curr === length - 1 ? 0 : curr + 1);
+        setCurr(curr === length - 1 ? 0 : curr + 1);
     }
 
     React.useEffect(() => {
-    setTimeout(goToNext, 3000)
+        setTimeout(goToNext, 3000)
     })
 
     if (!Array.isArray(slides) || length <= 0) {
