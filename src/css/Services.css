@@ -109,5 +109,21 @@
         align-self: center;
         width: 90%;
         margin: 0;
+        text-align: center;
+    }
+
+    .explanation .title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .explanation .highlight {
+        margin: 5% auto;
+        text-align: center;
+    }
+
+    .explanation .url {
+        margin: 5% auto;
+        text-align: center;
     }
   }

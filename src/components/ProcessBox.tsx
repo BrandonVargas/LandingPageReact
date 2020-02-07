@@ -13,7 +13,7 @@ const ProcessBox: React.FC<ProcessBoxProps> = ({process}) => {
         <div className="box">
             <p className="title">{process.title}</p>
             <p className="description">{process.description}</p>
-            <a href={process.url} className="more">Read More</a>
+            <a href={process.url} className="url">Read More</a>
         </div>
     )
 }

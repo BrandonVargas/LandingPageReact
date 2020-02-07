@@ -22,3 +22,14 @@
     width: 100%;
     justify-content: space-between;
 }
+
+@media (max-width: 700px) {
+    .process-boxes {
+        flex-direction: column;
+    }
+
+    .process-title {
+        max-width: 100%;
+        text-align: center;
+    }
+}

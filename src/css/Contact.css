@@ -50,7 +50,6 @@
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     justify-content: space-between;
 }
 
@@ -67,11 +66,6 @@
     line-height: 40px;
 }
 
-.info-section .list{
-    list-style-type: none;
-    padding: 0;
-}
-
 .info-section .info{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -79,6 +73,11 @@
     color: #FFFFFF;
     letter-spacing: 0;
     line-height: 40px;
+}
+
+.info-section .list{
+    list-style-type: none;
+    padding: 0;
 }
 
 .info-section .email {
@@ -117,4 +116,49 @@
     font-size: 14px;
     color: #B5C096;
     letter-spacing: 0;
+}
+
+@media (max-width: 700px) {
+    .contact .header {
+        width: 80%;
+        padding: 3% 0 3% 5%;
+    }
+
+    .contact .header .title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .url {
+        padding: 0;
+    }
+
+    .contact .contact-info {
+        margin-top: 100px;
+        padding: 100px 10% 1% 10%;
+        background-color: #4F553D;
+        background-image: url("../assets/contact_bg.png");
+        background-size: cover;
+    }
+
+    .contact .contact-info .row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-section {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .info-section .social {
+        margin: 10px 5% 10px 30%;
+    }
+
 }

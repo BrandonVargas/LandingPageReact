@@ -46,9 +46,13 @@
 
     .header .title {
         width: 80%;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .header .disclaimer {
         width: 80%;
+        margin: 0 auto;
+        text-align: center;
     }
 }

@@ -32,18 +32,19 @@
     margin: 10% 0 25% 0;
 }
 
-.box .more {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    color: #D4D6D4;
-    align-self: flex-start;
-}
+@media (max-width: 700px) {
+    .box {
+        width: 90%;
+        padding: 2% 2%;
+        text-align: center;
+    }
 
-.box:hover .more {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    color: #FFD723;
-    align-self: flex-start;
+    .box .description {
+        margin: 10% auto;
+        text-align: center;
+    }
+    .box .url {
+        text-align: center;
+        margin: 0 auto;
+    }
 }
